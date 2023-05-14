@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js" integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/mathtex-script-type.min.js" integrity="sha384-jiBVvJ8NGGj5n7kJaiWwWp9AjC+Yh8rhZY3GtAX8yU28azcLgoRo4oukO87g7zDT" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>LaCase</title>
+</head>
+<body>
+    <header>
+        <h1>\(\mathscr{LaCase}\) V0.2 - Fait avec 🤎 par Benstitou Sofiane</h1>
+    </header>
+
+    <main>
+        <p>Formule mathématique :</p>
+        <p>\(ax^2 + bx + c \Longleftrightarrow x = \frac{-b \pm \sqrt{\Delta}}{2a}\)</p>
+        <p>Crée en une vous même ! :</p>
+        <input type="text" id="mathInput" value="\mathscr{LaCase}">
+        <button onclick="mathDisplay()">valider</button> <br>
+        <p id="mathOutput">\(\mathscr{LaCase}\)</p>
+    </main> 
+
+    <script src="main.js"></script>
+</body>
+ 

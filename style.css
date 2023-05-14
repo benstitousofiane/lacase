@@ -1,0 +1,15 @@
+/*Développé par Benstitou Sofiane*/
+body{
+    color: #272424;
+}
+
+header{
+    text-align: center;
+    border: 10px solid;
+    border-radius: 60px;
+}
+
+main{
+    text-align: center;
+    font-size: 50px;
+}
