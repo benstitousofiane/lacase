@@ -7,3 +7,5 @@ Fonctionnement des version : 0.P avec P un nomrbe premier
 **0.3** (bientôt) : formule latex sous la forme de "to-do list" et ajout d'un magnifique style !
 
 Projet libre de droit pour n'importe quelle utilisation, même commercial !
+
+Dépendances (importer sur le header de index.html) : Katex et son option de balise type math/tex
