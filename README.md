@@ -9,3 +9,5 @@ Fonctionnement des version : 0.P avec P un nomrbe premier
 Projet libre de droit pour n'importe quelle utilisation, même commercial !
 
 Dépendances (importer sur le header de index.html) : Katex et son option de balise type math/tex
+
+To-Do management preview for LaCase : https://benstitousofiane.github.io/faire/
