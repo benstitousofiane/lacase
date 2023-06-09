@@ -12,17 +12,23 @@
 </head>
 <body>
     <header>
-        <h1>\(\mathscr{LaCase}\) V0.2 - Fait avec 🤎 par Benstitou Sofiane</h1>
+        <h1>🚧LaCase V0.3 - Fait avec 💚 par Benstitou Sofiane (ECDD)🚸</h1>
     </header>
 
     <main>
-        <p>Formule mathématique :</p>
-        <p>\(ax^2 + bx + c \Longleftrightarrow x = \frac{-b \pm \sqrt{\Delta}}{2a}\)</p>
-        <p>Crée en une vous même ! :</p>
-        <input type="text" id="mathInput" value="\mathscr{LaCase}">
-        <button onclick="mathDisplay()">valider</button> <br>
-        <p id="mathOutput">\(\mathscr{LaCase}\)</p>
-    </main> 
+        <nav>
+            <button class="orange" onclick="mathDisplay()">La</button>
+            <button class="blue">+M</button>
+            <button class="purple">+T</button>
+        </nav>
+        <div id="mathManagement">
+            <textarea id="textInput" cols="40" rows="3" placeholder="Entrez votre joli texte" class="textInput"></textarea>
+            <textarea name="" id="mathInput" cols="40" rows="10" placeholder="Entrez votre magnifique formule !" class="mathInput"></textarea>    
+        </div>
+         
+    </main>
+    <p id="textOutput">"Math" moi ça ! 🤯 :</p>
+    <p id="mathOutput">\(\mathscr{LaCase}\)</p>
 
     <script src="main.js"></script>
 </body>
