@@ -1,4 +1,7 @@
 # LaCase
+
+![lacaseprofile](https://github.com/benstitousofiane/LaCase/assets/129552238/2770d12f-17c2-4951-acc2-d66ac8c59689)
+
 Un magnifique notebook pour les maths !
 Fonctionnement des version : 0.P avec P un nomrbe premier
 
