@@ -1,15 +1,96 @@
 /*Développé par Benstitou Sofiane*/
+
+/* Font: Open Sans bold 700 : font-family: 'Open Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
 body{
-    color: #272424;
+    background-color: #1a1d27;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header{
     text-align: center;
-    border: 10px solid;
-    border-radius: 60px;
+    background-color: #171716;
+    
+    margin-bottom: 20px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 main{
     text-align: center;
-    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main nav{
+    display: flex;
+    flex-direction: column;
+}
+
+main div#mathManagement{
+    display: flex;
+    flex-direction: column;
+}
+
+main nav button{
+    font-size: 20px;
+    margin-right: 5px;
+    border: none;
+    background-color: white;
+    color: #171716;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+main nav button.orange{
+    background-color: #fdad5d;
+}
+main nav button.purple{
+    background-color: #af98e6;
+}
+main nav button.blue{
+    background-color: #56c9db;
+}
+
+main textarea{
+    font-size: 20px;
+    background-color: #1b1b1a;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+main textarea.textInput{
+    color: #e8d56d;
+    margin-bottom: 10px;
+
+}
+main textarea.mathInput{
+    color: #76c5a4;
+
+}
+
+
+#textOutput{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#mathOutput{
+    text-align: center;
+    font-size: 40px;
 }
