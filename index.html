@@ -2,34 +2,29 @@
 <html lang="fr">
 <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
+    
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js" integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t" crossorigin="anonymous"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/mathtex-script-type.min.js" integrity="sha384-jiBVvJ8NGGj5n7kJaiWwWp9AjC+Yh8rhZY3GtAX8yU28azcLgoRo4oukO87g7zDT" crossorigin="anonymous"></script>
-
+    
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <title>LaCase</title>
 </head>
 <body>
-    <header>
-        <h1>🚧LaCase V0.3 - Fait avec 💚 par Benstitou Sofiane (ECDD)🚸</h1>
-    </header>
 
-    <main>
-        <nav>
-            <button class="orange" onclick="mathDisplay()">La</button>
-            <button class="blue">+M</button>
-            <button class="purple">+T</button>
-        </nav>
-        <div id="mathManagement">
-            <textarea id="textInput" cols="40" rows="3" placeholder="Entrez votre joli texte" class="textInput"></textarea>
-            <textarea name="" id="mathInput" cols="40" rows="10" placeholder="Entrez votre magnifique formule !" class="mathInput"></textarea>    
-        </div>
-         
-    </main>
-    <p id="textOutput">"Math" moi ça ! 🤯 :</p>
-    <p id="mathOutput">\(\mathscr{LaCase}\)</p>
+    <header>
+        <h1><curly>LaCase</curly> V1.02 - Développé avec 💚 par Benstitou Sofiane</h1>
+    </header>
+    
+    <app>
+        <lol>
+            <button class="purple" id="addTextButton" onclick="addText()">+T</button>
+            <button class="orange" id="addMathButton" onclick="addMath()">+M</button>
+            <button class="blue" id="addImageButton" onclick="addImage()">+I</button>
+        </lol>
+    </app>
 
     <script src="main.js"></script>
 </body>
- 
+</html>
