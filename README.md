@@ -9,6 +9,8 @@ Fonctionnement des version : 0.P avec P un nomrbe premier
 
 **0.3** : Grosse refonte du design de l'appli
 
+**1.02** (ECDD) : Ajout du concept de l'application avec le design de la version 0.3
+
 **Fonctionnalités qui marchent actuellement**
 **Deux champs** :
   - Le champs texte brute : ajouté du texte avec votre police d'écriture modifiable sur le CSS
