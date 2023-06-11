@@ -1,15 +1,20 @@
-/*Développé par Benstitou Sofiane*/
+/* Développé par Benstitou Sofiane */
 
+/* Pinyon Script Regular 400 font-family: 'Pinyon Script', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
 /* Font: Open Sans bold 700 : font-family: 'Open Sans', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
 
 *{
     margin: 0;
     padding: 0;
 }
-html, body{
+
+html,body{
     height: 100%;
 }
+
 body{
     background-color: #1a1d27;
     color: white;
@@ -26,24 +31,36 @@ header{
     padding-bottom: 10px;
 }
 
-main{
-    text-align: center;
+curly{
+    font-family: 'Pinyon Script', cursive;
+}
+
+app{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-main nav{
-    display: flex;
-    flex-direction: column;
+app textarea{
+    font-size: 20px;
+    background-color: #1b1b1a;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
 }
 
-main div#mathManagement{
-    display: flex;
-    flex-direction: column;
+app textarea.textInput{
+    color: #e8d56d;
+    margin-bottom: 10px;
+
+}
+app textarea.mathInput{
+    color: #76c5a4;
+
 }
 
-main nav button{
+app button{
     font-size: 20px;
     margin-right: 5px;
     border: none;
@@ -54,43 +71,12 @@ main nav button{
     padding: 7px;
     margin-bottom: 10px;
 }
-
-main nav button.orange{
+app button.orange{
     background-color: #fdad5d;
 }
-main nav button.purple{
+app button.purple{
     background-color: #af98e6;
 }
-main nav button.blue{
+app button.blue{
     background-color: #56c9db;
-}
-
-main textarea{
-    font-size: 20px;
-    background-color: #1b1b1a;
-    border: 2px solid;
-    border-radius: 10px;
-    padding: 5px;
-}
-
-main textarea.textInput{
-    color: #e8d56d;
-    margin-bottom: 10px;
-
-}
-main textarea.mathInput{
-    color: #76c5a4;
-
-}
-
-
-#textOutput{
-    text-align: center;
-    font-size: 40px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-#mathOutput{
-    text-align: center;
-    font-size: 40px;
 }
