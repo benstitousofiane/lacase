@@ -9,7 +9,9 @@ Fonctionnement des version : 0.P avec P un nomrbe premier
 
 **0.3** : Grosse refonte du design de l'appli
 
-**1.02** (ECDD) : Ajout du concept de l'application avec le design de la version 0.3
+**1.02** : Ajout du concept de l'application avec le design de la version 0.3
+
+**1.03** : (ECDD) amélioration et ajout de praticité.
 
 **Fonctionnalités qui marchent actuellement**
 **Deux champs** :
