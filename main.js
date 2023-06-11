@@ -1,3 +1,5 @@
+// Développée par Benstitou Sofiane
+
 lolContainer = document.getElementById('lol');
 navContainer = document.getElementById('nav');
 addTextButton = document.getElementById('addTextButton');
