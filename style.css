@@ -80,3 +80,34 @@ app button.purple{
 app button.blue{
     background-color: #56c9db;
 }
+
+app button.green{
+    background-color: #76c5a4;
+}
+
+lol{
+    display: flex;
+    flex-direction: column;
+}
+nav button{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.textCase{
+    color: #e8d56d;
+    margin-bottom: 10px;
+}
+
+.mathCase{
+    color: #76c5a4;
+    margin-bottom: 10px;
+}
+
+
+.textOutput{
+    font-size: 30px;
+}
+.mathOutput{
+    font-size: 30px;
+}
