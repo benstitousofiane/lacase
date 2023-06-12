@@ -2,6 +2,7 @@
 
 lolContainer = document.getElementById('lol');
 navContainer = document.getElementById('nav');
+articleContainer  = document.getElementById('article');
 addTextButton = document.getElementById('addTextButton');
 addMathButton = document.getElementById('addMathButton');
 addImageButton = document.getElementById('addImageButton');
@@ -14,15 +15,24 @@ function addText(){
 
     newTextCase = document.createElement('textarea');
     newTextCase.setAttribute('class', 'textCase');
+    newTextCase.setAttribute('cols', '50');
+    newTextCase.setAttribute('rows', '2');
+
 
     LaButton = document.createElement('button');
     LaButton.innerText = "La"
     LaButton.setAttribute('class', 'purple');
-    LaButton.setAttribute('onclick', 'textDisplay()');
 
     lolContainer.appendChild(newTextCase);
     lolContainer.appendChild(LaButton);
     newTextCase.focus();
+
+    LaButton.addEventListener('click', function(){
+        textDisplay();
+        textOutput.addEventListener('dblclick', function(){
+            articleContainer.removeChild(textOutput);
+        })
+    });
 }
 
 function textDisplay(){
@@ -49,7 +59,8 @@ function textDisplay(){
     lolContainer.removeChild(newTextCase);
     lolContainer.removeChild(LaButton);
 
-    navContainer.appendChild(textOutput);
+    articleContainer.appendChild(textOutput);
+
     navContainer.appendChild(addTextButton);
     navContainer.appendChild(addMathButton);
     navContainer.appendChild(addImageButton);
@@ -67,12 +78,19 @@ function addMath(){
     LaButton = document.createElement('button');
     LaButton.innerText = "La"
     LaButton.setAttribute('class', 'purple');
-    LaButton.setAttribute('onclick', 'mathDisplay()');
+    
 
     lolContainer.appendChild(newMathCase);
     lolContainer.appendChild(LaButton);
 
     newMathCase.focus()
+
+    LaButton.addEventListener('click', function(){
+        mathDisplay();
+        mathOutput.addEventListener('dblclick', function(){
+            articleContainer.removeChild(mathOutput);
+        })
+    });
 }
 
 function mathDisplay(){
@@ -82,6 +100,8 @@ function mathDisplay(){
         throwOnError : false,
     });
     mathOutput.setAttribute('class', 'mathOutput');
+    mathOutput.setAttribute('cols', '50');
+    mathOutput.setAttribute('rows', '2');
 
     addTextButton = document.createElement('button');
     addTextButton.innerText = '+T'
@@ -103,11 +123,14 @@ function mathDisplay(){
     lolContainer.removeChild(newMathCase);
     lolContainer.removeChild(LaButton);
 
-    navContainer.appendChild(mathOutput);
+    articleContainer.appendChild(mathOutput);
+
     navContainer.appendChild(addTextButton);
     navContainer.appendChild(addMathButton);
     navContainer.appendChild(addImageButton);
 }
+
+
 
 //a faire :
 /*
