@@ -10,8 +10,14 @@ Fonctionnement des version : 0.P avec P un nomrbe premier
 **0.3** : Grosse refonte du design de l'appli
 
 **1.02** : Ajout du concept de l'application avec le design de la version 0.3
+  Disponible functionalités pour le moment
+  - **+T** : ajouté une case pour écrire du texte brute.
+  - **+M** : ajouté une case de texte typz LaTeX pour vos formules mathématiques
+  - **La** (après avoir cliqué sur +T ou +M) : afficher le contenue de la case
 
-**1.03** : (ECDD) amélioration et ajout de praticité.
+**1.03** : (ECDD) amélioration et ajout de praticité; pour le moment présent : suppression de textes ajoutése, amélioration la taille des texterea, et amélioration du style
+  fonctionalités ajoutées :
+  - supression de texte ajouté : "double click" sur une phrase ajouté et il sera supprimé.
 
 **Fonctionnalités qui marchent actuellement**
 **Deux champs** :
