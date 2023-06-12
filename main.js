@@ -114,4 +114,5 @@ function mathDisplay(){
 -suppression des case et élément (édition si possible)
 -lignes plus grandes.
 -raccourci pour écrire et executer plus vite comme sur jupyter...
+-avoir une copie du text mis avant dans le presse papier
 */
