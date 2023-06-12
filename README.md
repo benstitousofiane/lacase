@@ -18,6 +18,7 @@ Fonctionnement des version : 0.P avec P un nomrbe premier
 **1.03** : (ECDD) amélioration et ajout de praticité; pour le moment présent : suppression de textes ajoutése, amélioration la taille des texterea, et amélioration du style
   fonctionalités ajoutées :
   - supression de texte ajouté : "double click" sur une phrase ajouté et il sera supprimé.
+  A CORRIGE !!! : mettre en place la suppression des textes pour n'importe quelle case après lajout de plusieurs text
 
 **Fonctionnalités qui marchent actuellement**
 **Deux champs** :
