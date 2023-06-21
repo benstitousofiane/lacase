@@ -1,6 +1,6 @@
 # LaCase
 
-![lacaseprofile](https://github.com/benstitousofiane/LaCase/assets/129552238/2770d12f-17c2-4951-acc2-d66ac8c59689)
+![lacaseprofile](https://github.com/benstitousofiane/LaCase/assets/129552238/20c8720d-eb65-46c9-b0a7-b45d282080ec)
 
 Un magnifique notebook pour les maths !
 Fonctionnement des version : 0.P avec P un nomrbe premier
