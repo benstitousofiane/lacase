@@ -48,7 +48,7 @@ function addMath(){
 
     newLaButton.addEventListener('click', function(){
         let newMathElement = document.createElement('p');
-        newMathElement.setAttribute('class', 'textOutput')
+        newMathElement.setAttribute('class', 'mathOutput')
         
         katex.render(newCaseInput.value, newMathElement, {
             throwOnError : false,
