@@ -1,6 +1,7 @@
 # LaCase
 
-![lacaseprofile](https://github.com/benstitousofiane/LaCase/assets/129552238/e3898f67-baf8-4663-8a7f-fe91e218e156)
+![lacaseprofile](https://github.com/benstitousofiane/LaCase/assets/129552238/fbc9844b-1b1d-402e-9235-b1af93a57bb1)
+
 
 
 Un magnifique notebook pour les maths !
