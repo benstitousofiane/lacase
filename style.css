@@ -90,6 +90,17 @@ lol{
     flex-direction: column;
 }
 
+lacase{
+    display: flex;
+    flex-direction: column;
+}
+
+displayer{
+    display: flex;
+    flex-direction: column;
+}
+
+
 nav{
     margin-top: 15px;
     text-align: center;
@@ -100,12 +111,12 @@ nav button{
     
 }
 
-.textCase{
+.textInput{
     color: #e8d56d;
     margin-bottom: 10px;
 }
 
-.mathCase{
+.mathInput{
     color: #76c5a4;
     margin-bottom: 10px;
 }
@@ -113,7 +124,9 @@ nav button{
 
 .textOutput{
     font-size: 30px;
+    margin-bottom: 15px;
 }
 .mathOutput{
     font-size: 30px;
+    margin-bottom: 15px;
 }
