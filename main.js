@@ -24,8 +24,12 @@ function addText(){
         
         displayer.removeChild(newCaseInput);
         displayer.removeChild(newLaButton);
-        
-        lacase.appendChild(newTextElement);
+
+        if (newCaseInput.value === ''){
+            return 0;
+        }else{
+            lacase.appendChild(newTextElement);
+        }
         newTextElement.addEventListener('dblclick', function(){
             lacase.removeChild(newTextElement);
         });
@@ -49,7 +53,7 @@ function addMath(){
     newLaButton.addEventListener('click', function(){
         let newMathElement = document.createElement('p');
         newMathElement.setAttribute('class', 'mathOutput')
-        
+
         katex.render(newCaseInput.value, newMathElement, {
             throwOnError : false,
         });
@@ -57,13 +61,34 @@ function addMath(){
         displayer.removeChild(newCaseInput);
         displayer.removeChild(newLaButton);
         
-        lacase.appendChild(newMathElement);
+        if (newCaseInput.value === ''){
+            return 0;
+        }else{
+            lacase.appendChild(newMathElement);
+        }
+
         newMathElement.addEventListener('dblclick', function(){
             lacase.removeChild(newMathElement);
         });
     });
     
 }
+
+//Raccourci pour ajouter du text
+window.addEventListener('keydown', (event)=>{
+    if (event.ctrlKey && event.altKey && (event.key === 't')){
+        addText();
+    }
+});
+
+//Raccourci pour ajouter une formule
+window.addEventListener('keydown', (event)=>{
+    if (event.ctrlKey && event.altKey && (event.key === 'm')){
+        addMath();
+    }
+});
+
+
 
 //a faire :
 /*
