@@ -97,4 +97,5 @@ window.addEventListener('keydown', (event)=>{
 -raccourci pour écrire et executer plus vite comme sur jupyter...
 -avoir une copie du text mis avant dans le presse papier
 - faire si possible des macros.
+-Ajouté des "super cases" pour mélanger le texte normale et formules mathémqtiques.
 */
