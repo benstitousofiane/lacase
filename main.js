@@ -6,7 +6,9 @@ let nav = document.getElementById('nav');
 
 function addText(){
     let newCaseInput = document.createElement('textarea');
-    newCaseInput.setAttribute('class', 'textInput')
+    newCaseInput.setAttribute('class', 'textInput');
+    newCaseInput.setAttribute('rows', '3');
+    newCaseInput.setAttribute('cols', '40');
     
     let newLaButton = document.createElement('button');
     newLaButton.setAttribute('class', 'purple');
@@ -17,7 +19,7 @@ function addText(){
 
     newCaseInput.focus()
 
-    newLaButton.addEventListener('click', function(){
+    function textDisplay(){
         let newTextElement = document.createElement('p');
         newTextElement.setAttribute('class', 'textOutput')
         newTextElement.innerText = newCaseInput.value;
@@ -33,13 +35,24 @@ function addText(){
         newTextElement.addEventListener('dblclick', function(){
             lacase.removeChild(newTextElement);
         });
+    }
+
+    newLaButton.addEventListener('click', textDisplay);
+
+    //Raccourci pour afficher le texte :
+    newCaseInput.addEventListener('keydown', (event)=>{
+        if (event.shiftKey && event.key && (event.key === 'Enter')){
+            textDisplay();
+        }
     });
     
 }
 
 function addMath(){
     let newCaseInput = document.createElement('textarea');
-    newCaseInput.setAttribute('class', 'mathInput')
+    newCaseInput.setAttribute('class', 'mathInput');
+    newCaseInput.setAttribute('rows', '3');
+    newCaseInput.setAttribute('cols', '40');
     
     let newLaButton = document.createElement('button');
     newLaButton.setAttribute('class', 'purple');
@@ -50,7 +63,7 @@ function addMath(){
 
     newCaseInput.focus()
 
-    newLaButton.addEventListener('click', function(){
+    function mathDisplay(){
         let newMathElement = document.createElement('p');
         newMathElement.setAttribute('class', 'mathOutput')
 
@@ -70,8 +83,16 @@ function addMath(){
         newMathElement.addEventListener('dblclick', function(){
             lacase.removeChild(newMathElement);
         });
-    });
+    }
+    newLaButton.addEventListener('click', mathDisplay);
     
+    //Raccourci pour afficher la formule :
+    newCaseInput.addEventListener('keydown', (event)=>{
+        if (event.shiftKey && event.key && (event.key === 'Enter')){
+            mathDisplay();
+        }
+    });
+
 }
 
 //Raccourci pour ajouter du text
