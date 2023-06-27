@@ -25,7 +25,10 @@ Fonctionnement des version : 0.P avec P un nomrbe premier
 **1.05** (ECDD) : Ajout des racourcis:
   - **CTRL + ALT + T** : Ajouté du text
   - **CTRL + ALT + M** : Ajouter une formule mathématiques
-**Fonctionnalités qui marchent actuellement**
+  - **SHIFT + ENTER** : Afficher le résultat de l'entré sur un textaraa (Raccourci pour le La Button)
+  - **Taille des textarea agrendit**
+
+**Fonctionnalités qui marchent actuellement** (à modifier)
 **Deux champs** :
   - Le champs texte brute : ajouté du texte avec votre police d'écriture modifiable sur le CSS
   - Le champs maths : là où vous écrivez vos formule mathémariques
