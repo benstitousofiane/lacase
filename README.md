@@ -17,12 +17,12 @@ Fonctionnement des version : 0.P avec P un nomrbe premier
   - **+M** : ajouté une case de texte typz LaTeX pour vos formules mathématiques
   - **La** (après avoir cliqué sur +T ou +M) : afficher le contenue de la case
 
-**1.03** : (ECDD) amélioration et ajout de praticité; pour le moment présent : suppression de textes ajoutése, amélioration la taille des texterea, et amélioration du style
+**1.03** : amélioration et ajout de praticité; pour le moment présent : suppression de textes ajoutése, amélioration la taille des texterea, et amélioration du style
   fonctionalités ajoutées :
   - supression de texte ajouté : "double click" sur une phrase ajouté et il sera supprimé.
   A CORRIGE !!! : mettre en place la suppression des textes pour n'importe quelle case après lajout de plusieurs text
 
-**1.05** : Ajout des racourcis:
+**1.05** (ECDD) : Ajout des racourcis:
   - **CTRL + ALT + T** : Ajouté du text
   - **CTRL + ALT + M** : Ajouter une formule mathématiques
 **Fonctionnalités qui marchent actuellement**
