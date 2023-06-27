@@ -36,5 +36,5 @@ Fonctionnement des version : 0.P avec P un nomrbe premier
 
 Projet libre de droit pour n'importe quelle utilisation, même commercial !
 
-Dépendances (importer sur le header de index.html) : Katex et son option de balise type math/tex
-
+Dépendances (importer sur le header de index.html) : KaTeX et son option de balise type math/tex
+Magnifique et très pratique documentation du fonctionnement des commande LaTeX utilisé dans KaTeX : https://katex.org/docs/supported.html
