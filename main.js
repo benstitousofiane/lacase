@@ -146,6 +146,7 @@ window.addEventListener('keydown', (event)=>{
 -suppression des case et élément (édition si possible) -> FAIT
 -lignes plus grandes. -> Fait
 -raccourci pour écrire et executer plus vite comme sur jupyter... -> Fait
+- Macro : alt + m pour 'macro' pour appuyer sur une lettre pour effectuer la macro, par exemple alt + m : s -> \sum_{}^{}
 -avoir une copie du text mis avant dans le presse papier
 - faire si possible des macros.
 -Ajouté des "super cases" pour mélanger le texte normale et formules mathémqtiques (necessite une refonte) .
