@@ -26,7 +26,7 @@ Fonctionnement des version : 0.P avec P un nomrbe premier
   - **T** : Ajouté du text
   - **M** : Ajouter une formule mathématiques
   - **SHIFT + ENTER** : Afficher le résultat de l'entré sur un textaraa (Raccourci pour le La Button)
-  - **Taille des textarea agrendit**
+**Taille des textarea agrendit**
 
 **Fonctionnalités qui marchent actuellement** (à modifier)
 **Deux champs** :
