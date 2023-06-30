@@ -26,13 +26,13 @@ Fonctionnement des version : 0.P avec P un nomrbe premier
   - **T** : Ajouté du text
   - **M** : Ajouter une formule mathématiques
   - **SHIFT + ENTER** : Afficher le résultat de l'entré sur un textaraa (Raccourci pour le La Button)
-**Taille des textarea agrendit**
+  - **Taille des textarea agrendit**
 
 **Fonctionnalités qui marchent actuellement** (à modifier)
 **Deux champs** :
   - Le champs texte brute : ajouté du texte avec votre police d'écriture modifiable sur le CSS
   - Le champs maths : là où vous écrivez vos formule mathémariques
-**La** : Lacase key, lire afficher le contenue écrit dans le champt de texte et de maths.
+  - **La** : Lacase key, lire afficher le contenue écrit dans le champt de texte et de maths.
 
 Projet libre de droit pour n'importe quelle utilisation, même commercial !
 
