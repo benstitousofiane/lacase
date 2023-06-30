@@ -23,8 +23,8 @@ Fonctionnement des version : 0.P avec P un nomrbe premier
   A CORRIGE !!! : mettre en place la suppression des textes pour n'importe quelle case après lajout de plusieurs text
 
 **1.05** (ECDD) : Ajout des racourcis:
-  - **CTRL + ALT + T** : Ajouté du text
-  - **CTRL + ALT + M** : Ajouter une formule mathématiques
+  - **T** : Ajouté du text
+  - **M** : Ajouter une formule mathématiques
   - **SHIFT + ENTER** : Afficher le résultat de l'entré sur un textaraa (Raccourci pour le La Button)
   - **Taille des textarea agrendit**
 
