@@ -4,6 +4,8 @@ let displayer = document.getElementById('displayer');
 let nav = document.getElementById('nav');
 
 
+let bindlocker = false;
+
 function addText(){
     let newCaseInput = document.createElement('textarea');
     newCaseInput.setAttribute('class', 'textInput');
@@ -28,13 +30,17 @@ function addText(){
         displayer.removeChild(newLaButton);
 
         if (newCaseInput.value === ''){
+            bindlocker = false;
             return 0;
+
         }else{
             lacase.appendChild(newTextElement);
         }
         newTextElement.addEventListener('dblclick', function(){
             lacase.removeChild(newTextElement);
         });
+
+        bindlocker = false;
     }
 
     newLaButton.addEventListener('click', textDisplay);
@@ -75,6 +81,7 @@ function addMath(){
         displayer.removeChild(newLaButton);
         
         if (newCaseInput.value === ''){
+            bindlocker = false;
             return 0;
         }else{
             lacase.appendChild(newMathElement);
@@ -83,6 +90,8 @@ function addMath(){
         newMathElement.addEventListener('dblclick', function(){
             lacase.removeChild(newMathElement);
         });
+
+        bindlocker = false;
     }
     newLaButton.addEventListener('click', mathDisplay);
     
@@ -95,28 +104,49 @@ function addMath(){
 
 }
 
-//Raccourci pour ajouter du text
+
+//Raccourci fenêtre
 window.addEventListener('keydown', (event)=>{
-    if (event.ctrlKey && event.altKey && (event.key === 't')){
-        addText();
+    //Raccourci pour ajouter du text
+    if (event.key === 't'){
+        if (bindlocker === true){
+            return 0;
+        }
+        else{
+            setTimeout(()=>{
+            addText();
+            }, 1);
+            bindlocker = true;
+        }
+        
+
     }
+
+    //Raccourci pour ajouter une formule mathématique
+    if (event.key === 'm'){
+        if (bindlocker === true){
+            return 0;
+        }
+        else{
+            setTimeout(()=>{
+            addMath();
+            }, 1);
+            bindlocker = true;
+        }
+        
+
+    }
+
 });
 
-//Raccourci pour ajouter une formule
-window.addEventListener('keydown', (event)=>{
-    if (event.ctrlKey && event.altKey && (event.key === 'm')){
-        addMath();
-    }
-});
-
-
+//erreur à corriger, pas de problème pour avec les raccourcis, gérée la vairbale bindlocker quand on utilise les bouton manuellement
 
 //a faire :
 /*
 -suppression des case et élément (édition si possible) -> FAIT
 -lignes plus grandes. -> Fait
--raccourci pour écrire et executer plus vite comme sur jupyter...
+-raccourci pour écrire et executer plus vite comme sur jupyter... -> Fait
 -avoir une copie du text mis avant dans le presse papier
 - faire si possible des macros.
--Ajouté des "super cases" pour mélanger le texte normale et formules mathémqtiques.
+-Ajouté des "super cases" pour mélanger le texte normale et formules mathémqtiques (necessite une refonte) .
 */
