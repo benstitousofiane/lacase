@@ -52,6 +52,7 @@ function addText(){
         }
     });
     
+    bindlocker = true;
 }
 
 function addMath(){
@@ -102,6 +103,7 @@ function addMath(){
         }
     });
 
+    bindlocker = true;
 }
 
 
@@ -139,7 +141,7 @@ window.addEventListener('keydown', (event)=>{
 
 });
 
-//erreur à corriger, pas de problème pour avec les raccourcis, gérée la vairbale bindlocker quand on utilise les bouton manuellement
+//erreur à corriger, pas de problème pour avec les raccourcis, gérée la vairbale bindlocker quand on utilise les bouton manuellement -> corrigé
 
 //a faire :
 /*
