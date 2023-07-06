@@ -28,6 +28,8 @@ Fonctionnement des version : 0.P avec P un nomrbe premier
   - **SHIFT + ENTER** : Afficher le résultat de l'entré sur un textaraa (Raccourci pour le La Button)
   - **Taille des textarea agrendit**
 
+bug à corriger sur le bindlocker quand on ajoute deux cases text et maths, faire deux variable exprès pour ça !
+
 **Fonctionnalités qui marchent actuellement** (à modifier)
 **Deux champs** :
   - Le champs texte brute : ajouté du texte avec votre police d'écriture modifiable sur le CSS
