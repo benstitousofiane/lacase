@@ -5,7 +5,7 @@
 
 
 Un magnifique notebook pour les maths !
-Fonctionnement des version : 0.P avec P un nomrbe premier
+Fonctionnement des version : X.P avec P un nomrbe premier
 
 **0.2** : Simples entrée en latex
 
