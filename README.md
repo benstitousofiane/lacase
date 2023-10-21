@@ -2,7 +2,7 @@
 
 # LaCase V2
 Un aperçu de supers nouveautés de LaCase V2 🤩🙈
-
+![image](https://github.com/benstitousofiane/lacase/assets/129552238/d4510344-bb3a-41b0-bdc4-d1dd4c9d0bb9)
 
 # LaCase V1
 
