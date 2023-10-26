@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin : 0;
+}
+
+
+
+#header{
+    background-color: #171716;
+    color: black;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    max-width: none;
+    border-radius: 0px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+#colorConfigBox{
+    display: none;
+    position: fixed;
+    top: 300px;
+    left: 550px;
+    width: 1000px;
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+button{
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+    padding: 20px 30px 20px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+main{
+    left: 125px;
+    top: 100px;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+    justify-content: center;
+}
+
+article{
+    margin-left: 18%;
+    margin-right: 0.5%;
+    margin-top: 70px;
+    max-width: 1250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    cursor: pointer;
+    word-wrap: break-word;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+/* un h2 pour le saut de ligne */
+article h2.break{
+    flex-basis: 100%;
+}
+
+article h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+article h2{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+article .box{
+    width: 100%;
+    margin-top: 20px;
+}
+
+textarea{
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.formulaInput{
+    color: greenyellow;
+}
+
+.textInput{
+    color: orange;
+}
+
+.imageInput{
+    color: cyan;
+    margin-left: 17.5%;
+    width: 1250px;
+}
+
+textarea.imageInput{
+    margin-top: 70px;
+}
+
+
+img{
+    margin-top: 100px;
+    margin-bottom: 0px;
+    width: 600px;
+    /* margin-left: 200px; */
+    margin-left: 17.5%;
+    border-radius: 30px;
+}
+
+.grandTextInput{
+    color: orangered;
+}
+
+
+/* Pour le word break des formules formaté avec katex */
+.katex-display {
+    overflow: auto hidden;
+}
