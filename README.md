@@ -2,7 +2,8 @@
 
 # LaCase V2 (bientôt...) ➡️ en test ici : https://benstitousofiane.github.io/lacase/lacasev2/
 Un aperçu de supers nouveautés de LaCase V2 🤩🙈
-![image](https://github.com/benstitousofiane/lacase/assets/129552238/a4546c00-4bd0-4f88-b9f9-ea763e0d1205)
+![image](https://github.com/benstitousofiane/lacase/assets/129552238/fd000279-6f8a-4f5b-9da7-438c9d9b842f)
+
 
 
 # LaCase V1
