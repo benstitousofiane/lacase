@@ -4,5 +4,6 @@ Un magnifique notbook pour les maths ! 🔢✨
 Toujours rester dans l'abus 💀
 
 à faire et à corriger:
-- gestion des couleurs, quelques disfonctionnements, pas bien méchant
+- gestion des couleurs, quelques disfonctionnements, pas bien méchant.
+- des raccourcis en fonction du dernière élément.
 - un tuto
