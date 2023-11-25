@@ -10,3 +10,6 @@ Toujours rester dans l'abus 💀
 - un tuto
 
 Note 25/11/2023 : le projet sera encore refait pour des raisons pratique, une amélioration sur la vitesse d'édition arrivera ! 😈
+
+# Dependances :
+- KaTeX : pour convertir en forma mathématique un code LaTeX
