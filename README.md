@@ -7,3 +7,5 @@ Toujours rester dans l'abus 💀
 - gestion des couleurs, quelques disfonctionnements, pas bien méchant.
 - des raccourcis en fonction du dernière élément.
 - un tuto
+
+Note 25/11/2023 : le projet sera encore refait pour des raisons pratique, une amélioration sur la vitesse d'édition arrivera ! 😈
