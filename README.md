@@ -4,7 +4,15 @@
 Une version en javascript seul sera déployer et refait en réact lorsque je l'aurais appris
 
 Un magnifique notbook pour les maths ! 🔢✨
-![image](https://github.com/user-attachments/assets/86c3b1d8-896f-4b64-bc08-a1ed26609872)
+
+Fenêtre de rendu :
+![lacase1](https://github.com/user-attachments/assets/b3d150ba-5a91-4096-b943-e366f42c47c8)
+
+Fenêtre de script :
+![lacase2](https://github.com/user-attachments/assets/e1fa3008-37db-4b18-9bcc-cb9ef7b19845)
+
+Fenêtre de paramètre :
+![lacase3](https://github.com/user-attachments/assets/9252b0a7-8fa9-44e4-bb18-24d6f40bc1c1)
 
 Toujours rester dans l'abus 💀
 
