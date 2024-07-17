@@ -1,3 +1,4 @@
+ajouter un text petit souligner U (...) -> texte
 ajouter un centrage C (sur justText seulement)
 ajouter spoiler ! (faisable) S
 cliquer pour obtenir la ligne
