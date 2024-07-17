@@ -5,11 +5,22 @@ Une version en javascript seul sera déployer et refait en réact lorsque je l'a
 
 Un magnifique notbook pour les maths ! 🔢✨
 
+Fonctionalité Script :
+- Case (couche d'abstraction) : La
+- Faire un saut de ligne : br
+- Texte simple : T (...) -> contenu texte
+- Grand texte souligner : G (...) -> contenu titre (grand texte)
+- Formule mathématiques : M (...) -> code LaTeX
+- Image : I (...) -> width de l'image (...) -> lien de l'image
+- Emboîter : B
+- Centrer texte dans deuxième couche d'abstraction de texte : C
+
 # Fenêtre de rendu graphique:
 ![lacase1](https://github.com/user-attachments/assets/b3d150ba-5a91-4096-b943-e366f42c47c8)
 
 # Fenêtre de script :
 ![lacase2](https://github.com/user-attachments/assets/e1fa3008-37db-4b18-9bcc-cb9ef7b19845)
+
 
 # Fenêtre de paramètre :
 ![lacase3](https://github.com/user-attachments/assets/9252b0a7-8fa9-44e4-bb18-24d6f40bc1c1)
