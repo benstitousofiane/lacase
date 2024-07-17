@@ -1,0 +1,14 @@
+ajouter un centrage C (sur justText seulement)
+ajouter spoiler ! (faisable) S
+cliquer pour obtenir la ligne
+sommaire R (resume)
+
+pour paremètre :
+- couleurs
+- police d'écriture
+- titre?
+- taille numworks
+
+fait :
+- ajouter un centrage C (sur justText seulement)
+~ option calculatrice (numworks iframe ?) -> marche, ajouter taille dans les paramètre

@@ -1,0 +1,36 @@
+Ajouter une case : La
+Faire un saut de ligne : br
+Ajouter du texte : T (...) -> contenu texte
+Ajouter un titre : G (...) -> contenu titre (grand texte)
+Ajouter une formule mathématiques : M (...) -> code LaTeX
+Ajouter une image : I (...) -> lien de l'image (...) -> width de l'image
+Emboîter : B
+Centrer : C
+
+modèle HTML :
+
+<div class="case">
+    <div class="justText">
+        <h1>oui pas enboîter</h1>
+        <div class="break"></div>
+        <h2>oui en plus petit</h2>
+        <h2>\(e^{i\theta} = \cos(\theta) + i\sin(\theta)\)</h2>
+        <div class="break"></div>
+    </div>
+    <div class="image">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Carl_Friedrich_Gauss.jpg/800px-Carl_Friedrich_Gauss.jpg" alt="" width="400">
+    </div>
+</div>
+
+<div class="case" style="background-color: black; color: #fff243;padding: 40px;">
+    <div class="justText">
+        <h1>oui mais enboîter</h1>
+        <h2>oui en plus petit</h2>
+        <div class="break"></div>
+        <h2>\(e^{i\theta} = \cos(\theta) + i\sin(\theta)\)</h2>
+        <div class="break"></div>
+    </div>
+    <div class="image">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Carl_Friedrich_Gauss.jpg/800px-Carl_Friedrich_Gauss.jpg" alt="" width="400">
+    </div>
+</div>
