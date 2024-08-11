@@ -1,7 +1,6 @@
 # LaCase V3.02 📓
 
-🚧🧑‍🏭⚒️ : La version 3 est en cours de développement avec une nouvelles très belle interface et plus pratique ! La mise à jout entraîne l'ajout d'une fenêtre script pour ajouter plud tard la sauvegarde en ligne 💾
-Une version en javascript seul sera déployer et refait en réact lorsque je l'aurais appris
+🚧🧑‍🏭⚒️ : LaCase qui aura pour version V3.03 est en refonte totale vers du React pour pouvoir le maintenir sur le long terme ! Ce changement permettra aussi d'ajouter beaucoup plus facilement des nouveautés
 
 Un magnifique notbook pour les maths ! 🔢✨
 
