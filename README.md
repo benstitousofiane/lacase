@@ -1,5 +1,8 @@
 # LaCase V3.02 📓
 
+<h1 align=center>![icone](https://github.com/user-attachments/assets/e4d92227-b1f1-4dfd-ab49-6009baf79ca3)<h1/>
+
+
 🚧🧑‍🏭⚒️ : LaCase qui aura pour version V3.03 est en refonte totale vers du React pour pouvoir le maintenir sur le long terme ! Ce changement permettra aussi d'ajouter beaucoup plus facilement des nouveautés
 
 Un magnifique notbook pour les maths ! 🔢✨
