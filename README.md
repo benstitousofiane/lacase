@@ -1,7 +1,8 @@
-# LaCase V3.02 📓
-
 <h1 align=center>
-  <img src="https://github.com/user-attachments/assets/e4d92227-b1f1-4dfd-ab49-6009baf79ca3"><img/>
+  LaCase V3.02 📓
+<h1/>
+<h1 align=center>
+  <img src="https://github.com/user-attachments/assets/e4d92227-b1f1-4dfd-ab49-6009baf79ca3" width=400><img/>
 <h1/>
 
 
