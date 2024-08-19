@@ -5,6 +5,7 @@
   <img src="https://github.com/user-attachments/assets/e4d92227-b1f1-4dfd-ab49-6009baf79ca3" width=200><img/>
 <h1/>
 
+<hr>
 
 🚧🧑‍🏭⚒️ : LaCase qui aura pour version V3.03 est en refonte totale vers du React pour pouvoir le maintenir sur le long terme ! Ce changement permettra aussi d'ajouter beaucoup plus facilement des nouveautés
 
