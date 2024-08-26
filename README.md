@@ -8,18 +8,22 @@
 
 Un magnifique notbook pour les maths ! 🔢✨
 
+
 Fonctionalité Script :
 Bientôt ...
 
 # Fenêtre de rendu graphique:
-Bientôt ...
+![image](https://github.com/user-attachments/assets/24272e86-8b67-4ff9-8da3-28dda52ce11d)
 
 # Fenêtre de script :
-Bientôt ...
-
+![image](https://github.com/user-attachments/assets/a2645d9e-7f28-4284-9bfe-4bdaa344f19b)
 
 # Fenêtre de paramètre :
-Bientôt ...
+![image](https://github.com/user-attachments/assets/903ad01e-c577-4c74-94a9-530a0917b891)
+
+# Après changement de couleur et rendu avec la fenêtre de script:
+![image](https://github.com/user-attachments/assets/b3a6dfc2-aa96-401b-868b-75175a98640b)
+
 
 Script "La" utiliser dans l'exemple, à copier collé pour l'étudier :
 ```La
