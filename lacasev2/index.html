@@ -1,0 +1,106 @@
+<!-- Assemblage des composant de LaCase via des boutons -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <head>
+        <!-- Katex -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+    
+        <!-- The loading of KaTeX is deferred to speed up page rendering -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+    
+        <!-- To automatically render math in text elements, include the auto-render extension: -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+            onload="renderMathInElement(document.body);"></script>
+        <!-- Katex end -->
+
+    <link rel="icon" href="img/icone.png">
+    <link rel="stylesheet" href="css/couleurs.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaCase</title>
+</head>
+<body id="body">
+    <header class="box" id="header">
+        <h1>LaCase📓V2.02 - mode sable 🏖️ - Développée par Benstitou Sofiane <a href="https://github.com/benstitousofiane/lacase" target="_blank">🙈</a> </h1>
+    </header>
+
+    <main id="main">
+        
+    </main>
+
+    <div id="editor">
+        <div id="edit">
+            <h2>Choisissez un type de text :</h2>
+            <br>
+            <button class="formulaReplacer"><h2>\(\Sigma\)</h2> </button>
+            <button class="textReplacer"><h2>\(\Tau\)</h2></button>
+            <button class="grandTextReplacer"><h2>\(\Gamma\)</h2></but<ton>
+        </div>
+    </div>
+    
+
+    
+
+    <div class="widget" id="colorConfigBox">
+        <h1>Gestion des couleurs ⚙️</h1>
+        
+        <div id="colorConfigItems">
+            <div class="colorConfigItem">
+                <input type="color" name="backgroundColor" id="backgroundColor" value="#1a1d27">
+                <h2>fond</h2>
+            </div>
+            
+            <div class="colorConfigItem">
+                <input type="color" name="textColor" id="textColor" value="#ffffff">
+                
+                <h2>text <br> défault</h2>
+            </div>
+            
+            <div class="colorConfigItem">
+                <input type="color" name="boxColor" id="boxColor" value="#171716">
+                <h2>boites</h2>
+            </div>
+            
+            <div class="colorConfigItem">
+                <input type="color" name="textBoxColor" id="textBoxColor" value="#ffffff">
+                <h2>text <br> boites</h2>
+            </div>
+            
+            <div class="colorConfigItem">
+                <input type="color" name="buttonColor" id="buttonColor" value="#000000">
+                <h2>boutons</h2>
+            </div>
+            
+            <div class="colorConfigItem">
+                <input type="color" name="windowColor" id="widgetColor" value="#171716">
+                <h2>fenêtres <br>& <br> hover</h2>
+            </div>
+            
+        </div>
+        <button onclick="resetColor()">Réinitialiser les couleur</button>
+        <button onclick="changeColor()">Changer la couleur</button>
+        
+    </div>
+        
+    <footer id="footer">
+        <nav>
+            <button id="lacaseButton" title="Ajouter une case" onclick="addCase()"><h2>\(\text{La}\)</h2></button>
+            <button id="formulaButton" title="Formule maths" onclick="enableFormula()"><h2>\(\Sigma\)</h2></button>
+            <button id="textButton" title="Text" onclick="enableText()"><h2>\(\Tau\)</h2></button>
+            <button id="SautButton" title="Saut de ligne" onclick="enableSaut()"><h2>\(\hookrightarrow\)</h2></button>        
+            <button id="boxButton" title="Boite coloré" onclick="enableBox()"><h2>\(\Beta\)</h2></button>
+            <button id="imageButton" title="Image" onclick="addImage()"><h2>\(\Iota\)</h2></button>
+            <button id="grandTextButton" title="Grand text" onclick="enableGrandText()"><h2>\(\Gamma\)</h2></button>
+            <button id="editButton" title="Editer" onclick="enableEdit()"><h2>\(\Epsilon\)</h2></button>
+            <button id="cloneButton" title="Cloner" onclick="enableClone()"><h2>\(\Kappa\)</h2></button>
+            <button onclick="hideHeader()" title="Cacher la bar en haut"><h2>\(\Eta\)</h2></button>
+            <button id="colorConfigButton" onclick="colorConfigBoxDisplay()" title="Gestion des couleurs"><h2>⛭</h2></button>
+        </nav>
+    </footer>
+</body>
+
+<script src="scripts/couleurs.js"></script>
+<script src="scripts/events.js"></script>
+</html>

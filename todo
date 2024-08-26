@@ -1,0 +1,11 @@
+
+- Faire un fontScale (fontScale + xOfElement)
+
+- Faire une doc pour les commandes
+
+- Faire un highlight sur les commandes pour montrer qu'elle sont valides si vrai
+Je pourrais faire deux type de scriptInput, un avec le texte plein et à côté une interface faire exprès pour.
+
+- penser tout à la fin à une stratégie pour pouvoir tracer des graphiques sans passé par les images.
+
+- Penser à une fonctionalité pour le tactile ou pour les gens qui débute en latex (LabWindow ?)
