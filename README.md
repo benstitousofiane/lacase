@@ -24,6 +24,7 @@ Bientôt ...
 # Après changement de couleur et rendu avec la fenêtre de script:
 ![image](https://github.com/user-attachments/assets/b3a6dfc2-aa96-401b-868b-75175a98640b)
 
+(on peut aussi le mettre en noire et blanc pour l'impression)
 
 Script "La" utiliser dans l'exemple, à copier collé pour l'étudier :
 ```La
