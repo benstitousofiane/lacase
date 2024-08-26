@@ -10,7 +10,32 @@ Un magnifique notbook pour les maths ! 🔢✨
 
 
 Fonctionalité Script :
-Bientôt ...
+- L : Crée une case, doit être accompagner de E (voir dernière fonctionnalité)
+- LFB : LaCase Filled Box, Boîte rempli, sert à mettre en évidence une propriété ou une partie du cours
+- LPB : LaCase Printable Box, Boîte avec seulement les bordure pour mettre en évidence, je pense à l'écologie ♻️
+
+- T : Texte simple
+- U : Texte souligné
+- M : Formule mathématique en LaTeX à écrire, sera au rendu afficher très proprement
+
+- E : Fin, à mettre à chaque fin de case , sert dans l'algorithme à afficher le contenu de la case♻
+
+Script "la" à copier collé pour l'étudier :
+```la
+LFB
+U Equation du second degré :
+M \alpha x^2 + \beta x + \lambda = \boxed{0}
+E
+
+LPB
+T Somme de Gauss :
+M \sum_{i = 0}^{n} i = \frac{n(n+1)}{2}
+E
+
+L
+T Exemple :
+M \sum_{i = 0}^{10} i = \frac{10 \times 11}{2} = 55
+E
 
 # Fenêtre de rendu graphique:
 ![image](https://github.com/user-attachments/assets/24272e86-8b67-4ff9-8da3-28dda52ce11d)
@@ -26,22 +51,7 @@ Bientôt ...
 
 **(on peut aussi le mettre en noire et blanc pour l'impression)**
 
-Script "La" utiliser dans l'exemple, à copier collé pour l'étudier :
-```La
-LFB
-U Equation du second degré :
-M \alpha x^2 + \beta x + \lambda = \boxed{0}
-E
 
-LPB
-T Somme de Gauss :
-M \sum_{i = 0}^{n} i = \frac{n(n+1)}{2}
-E
-
-L
-T Exemple :
-M \sum_{i = 0}^{10} i = \frac{10 \times 11}{2} = 55
-E
 ```
 
 
