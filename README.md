@@ -23,34 +23,28 @@ Bientôt ...
 
 Script "La" utiliser dans l'exemple, à copier collé pour l'étudier :
 ```La
-La
-G Somme de Gauss
-C
-br
-La
+LFB
+U Equation du second degré :
+M \alpha x^2 + \beta x + \lambda = \boxed{0}
+E
 
-T Ceci est la somme de Gauss :
+LPB
+T Somme de Gauss :
 M \sum_{i = 0}^{n} i = \frac{n(n+1)}{2}
-B
+E
 
-br
-
-La
-T Il a trouver le résultat de cette somme alors qu'il était très jeune ! 🤯
-br
-T Voici une peinture qui montre Gauss :
-I 400 https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Carl_Friedrich_Gauss.jpg/800px-Carl_Friedrich_Gauss.jpg
+L
+T Exemple :
+M \sum_{i = 0}^{10} i = \frac{10 \times 11}{2} = 55
+E
 ```
 
 
 # Todo 
-
-à faire et à corriger:
-- Les paramètres
-- Ajout d'élément graphiquement comme dans la V2.02
-- Un tuto
+Dans le fichier todo pour le moment
 
 # Dependances :
-- KaTeX : pour convertir en format mathématique un code LaTeX
-- 
+Vite, React, TypeScript, KaTeX (KaTeX-React & @types)
+
+
 Toujours rester dans l'abus 💀
