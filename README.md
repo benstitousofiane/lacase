@@ -36,6 +36,7 @@ L
 T Exemple :
 M \sum_{i = 0}^{10} i = \frac{10 \times 11}{2} = 55
 E
+```
 
 # Fenêtre de rendu graphique:
 ![image](https://github.com/user-attachments/assets/24272e86-8b67-4ff9-8da3-28dda52ce11d)
@@ -52,7 +53,6 @@ E
 **(on peut aussi le mettre en noire et blanc pour l'impression)**
 
 
-```
 
 
 # Todo 
