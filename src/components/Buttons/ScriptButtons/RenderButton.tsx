@@ -19,7 +19,7 @@ interface caseStyleInterface{
     alignItems? : string
     justifyContent? : string
     flexWrap? : "wrap"
-    flexDirection? : string
+    flexDirection? : "column"
 }
 
 const render = (scriptInputValue : string, setScriptOutput : (newValue : ReactNode) => void, color1 : string, color2 : string) => {
