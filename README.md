@@ -36,6 +36,10 @@ L
 T Exemple :
 M \sum_{i = 0}^{10} i = \frac{10 \times 11}{2} = 55
 E
+
+LC
+I 400 https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Carl_Friedrich_Gauss_1840_by_Jensen.jpg/1200px-Carl_Friedrich_Gauss_1840_by_Jensen.jpg
+E
 ```
 
 # Fenêtre de rendu graphique:
