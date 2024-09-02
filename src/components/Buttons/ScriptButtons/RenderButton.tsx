@@ -6,6 +6,7 @@ import { ReactNode } from "react";
 import TextRender from "../../Renders/TextRender";
 import MathRender from "../../Renders/MathRender";
 import UnderLineRender from "../../Renders/UnderlineRender";
+import ImageRender from "../../Renders/ImageRender";
 
 interface caseStyleInterface{
     color? : string
@@ -16,7 +17,9 @@ interface caseStyleInterface{
     borderRadius? : string
     display? : string
     alignItems? : string
+    justifyContent? : string
     flexWrap? : "wrap"
+    flexDirection? : string
 }
 
 const render = (scriptInputValue : string, setScriptOutput : (newValue : ReactNode) => void, color1 : string, color2 : string) => {
@@ -41,6 +44,18 @@ const render = (scriptInputValue : string, setScriptOutput : (newValue : ReactNo
                         alignItems : "center",
                         flexWrap : "wrap",
                         margin : "20px"
+                    }
+                    break
+                case "LC" :
+                    caseStyle = {
+                        color : color2,
+                        backgroundColor : color1,
+                        display : "flex",
+                        alignItems : "center",
+                        flexWrap : "wrap",
+                        margin : "20px",
+                        justifyContent : "center",
+                        flexDirection : "column"
                     }
                     break
 
@@ -84,7 +99,11 @@ const render = (scriptInputValue : string, setScriptOutput : (newValue : ReactNo
                     case "M":
                     caseTemp.push(<MathRender formula={line.slice(2, line.length)}/>)
                     break
-
+                
+                // --- Media ---
+                case "I":
+                    caseTemp.push(<ImageRender width={line.split(" ")[1]} src={line.split(" ")[2]} />)
+                    break
                 
                 // --- Echapeur ---
                 
