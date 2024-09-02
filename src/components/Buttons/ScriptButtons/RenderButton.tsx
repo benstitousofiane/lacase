@@ -106,9 +106,11 @@ const render = (scriptInputValue : string, setScriptOutput : (newValue : ReactNo
                     break
                 
                 // --- Echapeur ---
-                
                 case "br":
                     caseTemp.push(<div className="w-full"></div> )
+                    break
+                case "WS" :
+                    caseTemp.push(<div className="w-full h-40"></div> )
                     break
 
                 case "E":
