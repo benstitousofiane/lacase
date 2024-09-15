@@ -39,6 +39,8 @@ E
 
 LC
 I 400 https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Carl_Friedrich_Gauss_1840_by_Jensen.jpg/1200px-Carl_Friedrich_Gauss_1840_by_Jensen.jpg
+
+WS
 E
 ```
 
