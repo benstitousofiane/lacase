@@ -1,3 +1,4 @@
+Mise à jour du projet vers Existance, LaCase, c'est fini 😔, mais Existance est encore mieux 🤩 : <a href="https://github.com/benstitousofiane/existance">Repo d'Existance</a>
 <h1 align=center>
   LaCase V3.02 📓
   <br><br>
